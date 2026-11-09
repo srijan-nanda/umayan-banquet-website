@@ -26,6 +26,8 @@ enquiryForm.addEventListener("submit", function (event) {
     const phone = document.getElementById("phone").value.trim();
     const eventType = document.getElementById("event").value;
     const guests = document.getElementById("guests").value;
+    const eventDate = document.getElementById("event-date").value;
+    const requirements = document.getElementById("requirements").value.trim();
 
     // Validate phone number
     const phonePattern = /^[0-9]{10}$/;
@@ -51,6 +53,8 @@ Name: ${name}
 Phone: ${phone}
 Event Type: ${eventType}
 Approximate Guests: ${guests}
+Preferred Event Date: ${eventDate || "Not specified"}
+Additional Requirements: ${requirements || "None"}
 
 Please share further details.
 

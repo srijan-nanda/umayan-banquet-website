@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://srijan-nanda.github.io/umayan-banquet-website/sitemap.xml
