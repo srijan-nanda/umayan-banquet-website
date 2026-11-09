@@ -101,6 +101,12 @@ It is also an opportunity to understand the practical side of building technolog
 - Website analytics and visitor insights.
 - Additional digital marketing initiatives.
 
+### Requirements
+- Git
+- A modern web browser
+
+No additional dependencies or package installation required.
+
 ## 👨‍💻 Developer
 
 **Srijan Kumar**
